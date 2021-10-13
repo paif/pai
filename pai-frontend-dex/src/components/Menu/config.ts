@@ -1,10 +1,10 @@
-import { MenuEntry } from '@pantherswap-libs/uikit'
+import { MenuEntry } from '@paiswap-libs/uikit'
 
 const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://pantherswap.com/',
+    href: 'https://paiswap.com/',
   },
   {
     label: 'Trade',
@@ -24,37 +24,37 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://pantherswap.com/farms',
+    href: 'https://paiswap.com/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://pantherswap.com/pools',
+    href: 'https://paiswap.com/pools',
   },
   {
     label: 'Jungles',
     icon: 'JungleIcon',
-    href: 'https://pantherswap.com/jungles',
+    href: 'https://paiswap.com/jungles',
   },
   {
     label: 'Lottery',
     icon: 'TicketIcon',
-    href: 'https://pantherswap.com/lottery',
+    href: 'https://paiswap.com/lottery',
   },
   {
     label: 'IPO',
     icon: 'IfoIcon',
-    href: 'https://pantherswap.com/ipo',
+    href: 'https://paiswap.com/ipo',
   },
   {
     label: 'Referrals',
     icon: 'ReferralIcon',
-    href: 'https://pantherswap.com/referrals',
+    href: 'https://paiswap.com/referrals',
   },
   {
     label: 'Audits',
     icon: 'ShieldIcon',
-    href: 'https://docs.pantherswap.com/security/audits',
+    href: 'https://docs.paiswap.com/security/audits',
   },
   {
     label: 'Features',
@@ -62,19 +62,19 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Automatic LP',
-        href: 'https://docs.pantherswap.com/tokenomics/automatic-liquidity',
+        href: 'https://docs.paiswap.com/tokenomics/automatic-liquidity',
       },
       {
         label: 'Automatic Burning',
-        href: 'https://docs.pantherswap.com/tokenomics/automatic-burning',
+        href: 'https://docs.paiswap.com/tokenomics/automatic-burning',
       },
       {
         label: 'Harvest Lockup',
-        href: 'https://docs.pantherswap.com/tokenomics/harvest-lockup',
+        href: 'https://docs.paiswap.com/tokenomics/harvest-lockup',
       },
       {
         label: 'Anti-Whale',
-        href: 'https://docs.pantherswap.com/tokenomics/anti-whale',
+        href: 'https://docs.paiswap.com/tokenomics/anti-whale',
       },
     ],
   },
@@ -110,23 +110,23 @@ const config: MenuEntry[] = [
       },
       {
         label: 'DappRadar',
-        href: 'https://dappradar.com/binance-smart-chain/defi/pantherswap',
+        href: 'https://dappradar.com/binance-smart-chain/defi/paiswap',
       },
       {
         label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/pantherswap',
+        href: 'https://www.coingecko.com/en/coins/paiswap',
       },
       {
         label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/pantherswap/',
+        href: 'https://coinmarketcap.com/currencies/paiswap/',
       },
       {
         label: 'LiveCoinWatch',
-        href: 'https://www.livecoinwatch.com/price/PantherSwap-PANTHER',
+        href: 'https://www.livecoinwatch.com/price/PaiSwap-PAI',
       },
       {
         label: 'Vfat',
-        href: 'https://vfat.tools/bsc/panther',
+        href: 'https://vfat.tools/bsc/pai',
       },
     ],
   },
@@ -160,19 +160,19 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Overview',
-        href: 'https://pantherswap.info',
+        href: 'https://paiswap.info',
       },
       {
         label: 'Tokens',
-        href: 'https://pantherswap.info/tokens',
+        href: 'https://paiswap.info/tokens',
       },
       {
         label: 'Pairs',
-        href: 'https://pantherswap.info/pairs',
+        href: 'https://paiswap.info/pairs',
       },
       {
         label: 'Accounts',
-        href: 'https://pantherswap.info/accounts',
+        href: 'https://paiswap.info/accounts',
       },
     ],
   },
@@ -191,23 +191,23 @@ const config: MenuEntry[] = [
       // },
       {
         label: 'Github',
-        href: 'https://github.com/pantherswap',
+        href: 'https://github.com/paiswap',
       },
       {
         label: 'Docs',
-        href: 'https://docs.pantherswap.com',
+        href: 'https://docs.paiswap.com',
       },
       {
         label: 'Roadmap',
-        href: 'https://docs.pantherswap.com/roadmap',
+        href: 'https://docs.paiswap.com/roadmap',
       },
       {
         label: 'Blog',
-        href: 'https://pantherswap.medium.com',
+        href: 'https://paiswap.medium.com',
       },
       {
         label: 'Voting',
-        href: 'https://voting.pantherswap.com/',
+        href: 'https://voting.paiswap.com/',
       },
     ],
   },

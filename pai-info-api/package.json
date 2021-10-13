@@ -1,9 +1,9 @@
 {
-  "name": "panther-info-api",
+  "name": "pai-info-api",
   "version": "1.0.0",
-  "description": "Serverless API implementation for PantherSwap on-chain data query.",
-  "repository": "git@github.com:pantherswap/panther-info-api.git",
-  "author": "PantherSwap",
+  "description": "Serverless API implementation for PaiSwap on-chain data query.",
+  "repository": "git@github.com:paiswap/pai-info-api.git",
+  "author": "PaiSwap",
   "license": "MIT",
   "scripts": {
     "format:check": "prettier --check '*/**/*.{js,ts}'",

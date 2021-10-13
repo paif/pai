@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Percent, Token, WETH } from '@pantherswap-libs/sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from '@paiswap-libs/sdk'
 
 export const ROUTER_ADDRESS = '0x24f7C33ae5f77e2A9ECeed7EA858B4ca2fa1B7eC'
 
@@ -52,7 +52,7 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
   [ChainId.MAINNET]: [
     [
-      new Token(ChainId.MAINNET, '0x1f546ad641b56b86fd9dceac473d1c7a357276b7', 18, 'PANTHER', 'PantherSwap Token'),
+      new Token(ChainId.MAINNET, '0x1f546ad641b56b86fd9dceac473d1c7a357276b7', 18, 'PAI', 'PaiSwap Token'),
       new Token(ChainId.MAINNET, '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c', 18, 'WBNB', 'Wrapped BNB'),
     ],
     [BUSD, USDT],

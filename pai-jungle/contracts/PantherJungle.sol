@@ -7,12 +7,12 @@ import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/math/SafeMath.sol";
 import "./libs/SafeBEP20.sol";
 
-contract PantherJungleInitializable is Ownable, ReentrancyGuard {
+contract PaiJungleInitializable is Ownable, ReentrancyGuard {
     using SafeMath for uint256;
     using SafeBEP20 for IBEP20;
 
-    // The address of the panther jungle factory
-    address public PANTHER_JUNGLE_FACTORY;
+    // The address of the pai jungle factory
+    address public PAI_JUNGLE_FACTORY;
 
     // Whether a limit is set for users
     bool public hasUserLimit;
@@ -23,10 +23,10 @@ contract PantherJungleInitializable is Ownable, ReentrancyGuard {
     // Accrued token per share
     uint256 public accTokenPerShare;
 
-    // The block number when PANTHER mining ends.
+    // The block number when PAI mining ends.
     uint256 public bonusEndBlock;
 
-    // The block number when PANTHER mining starts.
+    // The block number when PAI mining starts.
     uint256 public startBlock;
 
     // The block number of the last pool update
@@ -35,7 +35,7 @@ contract PantherJungleInitializable is Ownable, ReentrancyGuard {
     // The pool limit (0 if none)
     uint256 public poolLimitPerUser;
 
-    // PANTHER tokens created per block.
+    // PAI tokens created per block.
     uint256 public rewardPerBlock;
 
     // The precision factor
@@ -77,7 +77,7 @@ contract PantherJungleInitializable is Ownable, ReentrancyGuard {
     event NewWithdrawalInterval(uint256 interval);
 
     constructor() public {
-        PANTHER_JUNGLE_FACTORY = msg.sender;
+        PAI_JUNGLE_FACTORY = msg.sender;
     }
 
     /*
@@ -104,7 +104,7 @@ contract PantherJungleInitializable is Ownable, ReentrancyGuard {
         address _admin
     ) external {
         require(!isInitialized, "Already initialized");
-        require(msg.sender == PANTHER_JUNGLE_FACTORY, "Not factory");
+        require(msg.sender == PAI_JUNGLE_FACTORY, "Not factory");
         require(_withdrawalInterval <= MAXIMUM_WITHDRAWAL_INTERVAL, "Invalid withdrawal interval");
 
         // Make this contract initialized

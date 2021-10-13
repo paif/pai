@@ -1,6 +1,6 @@
 specVersion: 0.0.2
-description: PantherSwap is a decentralized protocol for automated token exchange on Binance Smart Chain.
-repository: https://github.com/pantherswap/panther-subgraph
+description: PaiSwap is a decentralized protocol for automated token exchange on Binance Smart Chain.
+repository: https://github.com/paiswap/pai-subgraph
 schema:
   file: ./schema.graphql
 dataSources:

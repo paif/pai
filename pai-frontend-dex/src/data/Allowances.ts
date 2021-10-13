@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from '@pantherswap-libs/sdk'
+import { Token, TokenAmount } from '@paiswap-libs/sdk'
 import { useMemo } from 'react'
 
 import { useTokenContract } from '../hooks/useContract'

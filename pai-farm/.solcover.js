@@ -7,7 +7,7 @@ module.exports = {
     "libs",
     "libs",
     "libs",
-    "PantherToken.sol",
+    "PaiToken.sol",
     "Timelock.sol"
   ],
   measureStatementCoverage: false,

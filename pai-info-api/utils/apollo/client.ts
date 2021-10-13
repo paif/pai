@@ -4,7 +4,7 @@ import fetch from "cross-fetch";
 export const client = new ApolloClient({
   link: new HttpLink({
     fetch,
-    uri: "https://api.bscgraph.org/subgraphs/name/panther/exchange-lite",
+    uri: "https://api.bscgraph.org/subgraphs/name/pai/exchange-lite",
   }),
   cache: new InMemoryCache(),
 });

@@ -1,11 +1,11 @@
-# PantherSwap API
+# PaiSwap API
 
-The PantherSwap API is a set of endpoints used by market aggregators (e.g. coinmarketcap.com) to surface PantherSwap liquidity
+The PaiSwap API is a set of endpoints used by market aggregators (e.g. coinmarketcap.com) to surface PaiSwap liquidity
 and volume information. All information is fetched from the underlying subgraphs.
 
 ## Documentation
 
-The documentation of the endpoints for PantherSwap can be found [here](documentation.md).
+The documentation of the endpoints for PaiSwap can be found [here](documentation.md).
 
 ## Development
 

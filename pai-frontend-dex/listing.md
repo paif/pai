@@ -10,10 +10,10 @@ If you are seeking to be added to the [Pancakeswap.finance](https://pancakeswap.
 
 ## Adding Tokens
 
-1. Fork the [PantherSwap Dex Frontend](https://github.com/pantherswap/panther-frontend-dex/) repository on GitHub
+1. Fork the [PaiSwap Dex Frontend](https://github.com/paiswap/pai-frontend-dex/) repository on GitHub
 2. Upload your **logo** in a 96\*96px transparent .png format to the `/public/images/coins` directory. Please name the logo as your symbol in uppercase.
 
-3. Add your **token information** using the example format provided below to `pantherswap.json` in the `/src/constants/token/` directory.
+3. Add your **token information** using the example format provided below to `paiswap.json` in the `/src/constants/token/` directory.
 
 4. Create a **pull request** detailing information about your project, website address, and contact details (telegram)
 
@@ -27,16 +27,16 @@ If you are seeking to be added to the [Pancakeswap.finance](https://pancakeswap.
 
 ```json
 {
-"name": "PantherSwap Token",
-"symbol": "PANTHER",
+"name": "PaiSwap Token",
+"symbol": "PAI",
 "address": "0x1f546ad641b56b86fd9dceac473d1c7a357276b7",
 "chainId": 56,
 "decimals": 18,
-"logoURI": "/images/coins/PANTHER.png"
+"logoURI": "/images/coins/PAI.png"
 },
 ```
 
-If you're not comfortable with GitHub pull requests, please open a [new issue](https://github.com/pantherswap/panther-frontend-dex/issues/new) requesting to be added.
+If you're not comfortable with GitHub pull requests, please open a [new issue](https://github.com/paiswap/pai-frontend-dex/issues/new) requesting to be added.
 
 ## Reviews
 

@@ -1,14 +1,14 @@
-# PantherSwap Subgraph
+# PaiSwap Subgraph
 
-[PantherSwap](https://pantherswap.com/) is a decentralized protocol for automated token exchange on Binance Smart Chain.
+[PaiSwap](https://paiswap.com/) is a decentralized protocol for automated token exchange on Binance Smart Chain.
 
-This subgraph dynamically tracks any pair created by the uniswap factory. It tracks of the current state of PantherSwap contracts, and contains derived stats for things like historical data and USD prices.
+This subgraph dynamically tracks any pair created by the uniswap factory. It tracks of the current state of PaiSwap contracts, and contains derived stats for things like historical data and USD prices.
 
 - aggregated data across pairs and tokens,
 - data on individual pairs and tokens,
 - data on transactions
 - data on liquidity providers
-- historical data on PantherSwap, pairs or tokens, aggregated by day
+- historical data on PaiSwap, pairs or tokens, aggregated by day
 
 ## Running Locally
 
@@ -22,7 +22,7 @@ Below are a few ways to show how to query the uniswap-subgraph for data. The que
 
 #### UniswapFactory
 
-Contains data across all of PantherSwap v2. This entity tracks important things like total liquidity (in ETH and USD, see below), all time volume, transaction count, number of pairs and more.
+Contains data across all of PaiSwap v2. This entity tracks important things like total liquidity (in ETH and USD, see below), all time volume, transaction count, number of pairs and more.
 
 #### Token
 
@@ -34,7 +34,7 @@ Contains data on a specific pair.
 
 #### Transaction
 
-Every transaction on PantherSwap is stored. Each transaction contains an array of mints, burns, and swaps that occured within it.
+Every transaction on PaiSwap is stored. Each transaction contains an array of mints, burns, and swaps that occured within it.
 
 #### Mint, Burn, Swap
 
@@ -42,9 +42,9 @@ These contain specifc information about a transaction. Things like which pair tr
 
 ## Example Queries
 
-### Querying Aggregated PantherSwap Data
+### Querying Aggregated PaiSwap Data
 
-This query fetches aggregated data from all PantherSwap pairs and tokens, to capture activity throughout the entire protocol.
+This query fetches aggregated data from all PaiSwap pairs and tokens, to capture activity throughout the entire protocol.
 
 ```graphql
 {

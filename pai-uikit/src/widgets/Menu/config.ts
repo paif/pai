@@ -10,11 +10,11 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://dex.pantherswap.com",
+        href: "https://dex.paiswap.com",
       },
       {
         label: "Liquidity",
-        href: "https://dex.pantherswap.com/#/pool",
+        href: "https://dex.paiswap.com/#/pool",
       },
     ],
   },
@@ -59,19 +59,19 @@ export const links = [
     items: [
       {
         label: "Overview",
-        href: "https://pantherswap.info",
+        href: "https://paiswap.info",
       },
       {
         label: "Tokens",
-        href: "https://pantherswap.info/tokens",
+        href: "https://paiswap.info/tokens",
       },
       {
         label: "Pairs",
-        href: "https://pantherswap.info/pairs",
+        href: "https://paiswap.info/pairs",
       },
       {
         label: "Accounts",
-        href: "https://pantherswap.info/accounts",
+        href: "https://paiswap.info/accounts",
       },
     ],
   },
@@ -95,7 +95,7 @@ export const links = [
     items: [
       {
         label: "Voting",
-        href: "https://voting.pantherswap.com",
+        href: "https://voting.paiswap.com",
       },
       {
         label: "Github",
@@ -103,11 +103,11 @@ export const links = [
       },
       {
         label: "Docs",
-        href: "https://docs.pantherswap.com",
+        href: "https://docs.paiswap.com",
       },
       {
         label: "Blog",
-        href: "https://pantherswap.medium.com",
+        href: "https://paiswap.medium.com",
       },
     ],
   },
@@ -117,22 +117,22 @@ export const socials = [
   {
     label: "Github",
     icon: "GithubIcon",
-    href: "https://github.com/pantherswap",
+    href: "https://github.com/paiswap",
   },
   {
     label: "Docs",
     icon: "GitbookIcon",
-    href: "https://docs.pantherswap.com",
+    href: "https://docs.paiswap.com",
   },
   {
     label: "Medium",
     icon: "MediumIcon",
-    href: "https://pantherswap.medium.com",
+    href: "https://paiswap.medium.com",
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/PantherSwap",
+    href: "https://twitter.com/PaiSwap",
   },
   {
     label: "Telegram",
@@ -140,11 +140,11 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/PantherSwap",
+        href: "https://t.me/PaiSwap",
       },
       {
         label: "Announcements",
-        href: "https://t.me/PantherSwapAnn",
+        href: "https://t.me/PaiSwapAnn",
       },
     ],
   },

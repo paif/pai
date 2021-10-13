@@ -1,4 +1,4 @@
-import { Currency } from '@pantherswap-libs/sdk'
+import { Currency } from '@paiswap-libs/sdk'
 import React from 'react'
 import styled from 'styled-components'
 import CurrencyLogo from '../CurrencyLogo'

@@ -1,5 +1,5 @@
 {
-  "name": "pantherswap",
+  "name": "paiswap",
   "timestamp": "2020-08-25T15:41:29.665Z",
   "version": {
     "major": 1,
@@ -42,12 +42,12 @@
       "logoURI": "/images/coins/bake.png"
     },
     {
-      "name": "PantherSwap Token",
-      "symbol": "PANTHER",
+      "name": "PaiSwap Token",
+      "symbol": "PAI",
       "address": "0x1f546ad641b56b86fd9dceac473d1c7a357276b7",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "/images/coins/panther.png"
+      "logoURI": "/images/coins/pai.png"
     },
     {
       "name": "BUSD Token",

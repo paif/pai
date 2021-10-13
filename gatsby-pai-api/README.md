@@ -1,6 +1,6 @@
-# panther-api
+# pai-api
 
-Set of endpoints utilities for PantherSwap, based on Serverless.
+Set of endpoints utilities for PaiSwap, based on Serverless.
 
 ## Dependencies
 

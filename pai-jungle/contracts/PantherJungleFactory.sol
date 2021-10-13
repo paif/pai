@@ -4,10 +4,10 @@ pragma solidity 0.6.12;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
-import "./PantherJungle.sol";
+import "./PaiJungle.sol";
 
-contract PantherJungleFactory is Ownable {
-    event NewPantherJungleContract(address indexed pantherJungle);
+contract PaiJungleFactory is Ownable {
+    event NewPaiJungleContract(address indexed paiJungle);
 
     constructor() public {
         //
@@ -24,7 +24,7 @@ contract PantherJungleFactory is Ownable {
      * @param _stakedTokenTransferFee: the transfer fee of stakedToken (if any, else 0)
      * @param _withdrawalInterval: the withdrawal interval for stakedToken (if any, else 0)
      * @param _admin: admin address with ownership
-     * @return address of new panther jungle contract
+     * @return address of new pai jungle contract
      */
     function deployPool(
         IBEP20 _stakedToken,
@@ -41,15 +41,15 @@ contract PantherJungleFactory is Ownable {
         require(_rewardToken.totalSupply() >= 0);
         require(_stakedToken != _rewardToken, "Tokens must be be different");
 
-        bytes memory bytecode = type(PantherJungleInitializable).creationCode;
+        bytes memory bytecode = type(PaiJungleInitializable).creationCode;
         bytes32 salt = keccak256(abi.encodePacked(_stakedToken, _rewardToken, _startBlock));
-        address pantherJungleAddress;
+        address paiJungleAddress;
 
         assembly {
-            pantherJungleAddress := create2(0, add(bytecode, 32), mload(bytecode), salt)
+            paiJungleAddress := create2(0, add(bytecode, 32), mload(bytecode), salt)
         }
 
-        PantherJungleInitializable(pantherJungleAddress).initialize(
+        PaiJungleInitializable(paiJungleAddress).initialize(
             _stakedToken,
             _rewardToken,
             _rewardPerBlock,
@@ -61,6 +61,6 @@ contract PantherJungleFactory is Ownable {
             _admin
         );
 
-        emit NewPantherJungleContract(pantherJungleAddress);
+        emit NewPaiJungleContract(paiJungleAddress);
     }
 }

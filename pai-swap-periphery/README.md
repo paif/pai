@@ -1,4 +1,4 @@
-# PantherSwap Router
+# PaiSwap Router
 
 ### Bsc-Test
 

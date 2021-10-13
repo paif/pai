@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Pair, Token, Trade } from '@pantherswap-libs/sdk'
+import { Currency, CurrencyAmount, Pair, Token, Trade } from '@paiswap-libs/sdk'
 import flatMap from 'lodash.flatmap'
 import { useMemo } from 'react'
 

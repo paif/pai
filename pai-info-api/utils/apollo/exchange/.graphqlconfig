@@ -1,10 +1,10 @@
 {
-  "name": "PantherSwap Exchange",
+  "name": "PaiSwap Exchange",
   "schemaPath": "schema.graphql",
   "extensions": {
     "endpoints": {
-      "PantherSwap Exchange": {
-        "url": "https://api.bscgraph.org/subgraphs/name/pantherswap/exchange",
+      "PaiSwap Exchange": {
+        "url": "https://api.bscgraph.org/subgraphs/name/paiswap/exchange",
         "headers": {
           "user-agent": "JS GraphQL"
         },

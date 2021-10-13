@@ -1,13 +1,13 @@
 {
-  "name": "pantherswap-frontend-dex",
-  "description": "PantherSwap Dex Interface",
+  "name": "paiswap-frontend-dex",
+  "description": "PaiSwap Dex Interface",
   "homepage": ".",
   "private": true,
   "dependencies": {
     "@crowdin/crowdin-api-client": "^1.8.16",
     "@ethersproject/experimental": "^5.0.1",
-    "@pantherswap-libs/sdk": "^1.0.0",
-    "@pantherswap-libs/uikit": "^0.1.1",
+    "@paiswap-libs/sdk": "^1.0.0",
+    "@paiswap-libs/uikit": "^0.1.1",
     "@popperjs/core": "^2.4.4",
     "@reach/dialog": "^0.10.3",
     "@reach/portal": "^0.10.3",

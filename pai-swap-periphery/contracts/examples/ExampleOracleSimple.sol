@@ -1,11 +1,11 @@
 pragma solidity =0.6.6;
 
-import '@pantherswap-libs/panther-swap-core/contracts/interfaces/IPantherFactory.sol';
-import '@pantherswap-libs/panther-swap-core/contracts/interfaces/IPantherPair.sol';
+import '@paiswap-libs/pai-swap-core/contracts/interfaces/IPaiFactory.sol';
+import '@paiswap-libs/pai-swap-core/contracts/interfaces/IPaiPair.sol';
 import '@uniswap/lib/contracts/libraries/FixedPoint.sol';
 
-import '../libraries/PantherOracleLibrary.sol';
-import '../libraries/PantherLibrary.sol';
+import '../libraries/PaiOracleLibrary.sol';
+import '../libraries/PaiLibrary.sol';
 
 // fixed window oracle that recomputes the average price for the entire period once every period
 // note that the price average is only guaranteed to be over at least 1 period, but may be over a longer period
@@ -14,7 +14,7 @@ contract ExampleOracleSimple {
 
     uint public constant PERIOD = 24 hours;
 
-    IPantherPair immutable pair;
+    IPaiPair immutable pair;
     address public immutable token0;
     address public immutable token1;
 
@@ -25,7 +25,7 @@ contract ExampleOracleSimple {
     FixedPoint.uq112x112 public price1Average;
 
     constructor(address factory, address tokenA, address tokenB) public {
-        IPantherPair _pair = IPantherPair(PantherLibrary.pairFor(factory, tokenA, tokenB));
+        IPaiPair _pair = IPaiPair(PaiLibrary.pairFor(factory, tokenA, tokenB));
         pair = _pair;
         token0 = _pair.token0();
         token1 = _pair.token1();
@@ -39,7 +39,7 @@ contract ExampleOracleSimple {
 
     function update() external {
         (uint price0Cumulative, uint price1Cumulative, uint32 blockTimestamp) =
-            PantherOracleLibrary.currentCumulativePrices(address(pair));
+            PaiOracleLibrary.currentCumulativePrices(address(pair));
         uint32 timeElapsed = blockTimestamp - blockTimestampLast; // overflow is desired
 
         // ensure that at least one full period has passed since the last update

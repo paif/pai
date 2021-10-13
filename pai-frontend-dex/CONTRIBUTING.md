@@ -1,4 +1,4 @@
-# Contributing to the Panther ecosystem
+# Contributing to the Pai ecosystem
 
 Thanks for taking the time to contribute !
 

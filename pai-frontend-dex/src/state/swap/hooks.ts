@@ -1,5 +1,5 @@
 import { parseUnits } from '@ethersproject/units'
-import { Currency, CurrencyAmount, ETHER, JSBI, Token, TokenAmount, Trade } from '@pantherswap-libs/sdk'
+import { Currency, CurrencyAmount, ETHER, JSBI, Token, TokenAmount, Trade } from '@paiswap-libs/sdk'
 import { ParsedQs } from 'qs'
 import { useCallback, useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
@@ -92,8 +92,8 @@ const BAD_RECIPIENT_ADDRESSES: string[] = [
   '0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F', // v2 router 02
   '0x10ed43c718714eb63d5aa57b78b54704e256024e', // v2-2 router 02
   '0xca143ce32fe78f1f7019d7d551a6402fc5350c73', // v2-2 factory
-  '0x670f55c6284c629c23baE99F585e3f17E8b9FC31', // panther factory
-  '0x24f7C33ae5f77e2A9ECeed7EA858B4ca2fa1B7eC', // panther router
+  '0x670f55c6284c629c23baE99F585e3f17E8b9FC31', // pai factory
+  '0x24f7C33ae5f77e2A9ECeed7EA858B4ca2fa1B7eC', // pai router
 ]
 
 /**

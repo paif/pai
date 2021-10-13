@@ -1,6 +1,6 @@
-# PantherSwap Factory
+# PaiSwap Factory
 
-In-depth documentation on PancakeSwap is available at [docs.pantherswap.com](https://docs.pantherswap.com/).
+In-depth documentation on PancakeSwap is available at [docs.paiswap.com](https://docs.paiswap.com/).
 
 # Local Development
 

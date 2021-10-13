@@ -7,8 +7,8 @@ module.exports = {
     "libs",
     "libs",
     "libs",
-    "PantherJungle.sol",
-    "PantherJungleFactory.sol"
+    "PaiJungle.sol",
+    "PaiJungleFactory.sol"
   ],
   measureStatementCoverage: false,
   measureFunctionCoverage: true,

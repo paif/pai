@@ -1,20 +1,20 @@
-# Panther UIkit
+# Pai UIkit
 
-Panther UIkit is a set of React components and hooks used to build pages on Panther's apps. It also contains a theme file for dark and light mode.
+Pai UIkit is a set of React components and hooks used to build pages on Pai's apps. It also contains a theme file for dark and light mode.
 
 ## Install
 
-`yarn add @pantherswap-libs/uikit`
+`yarn add @paiswap-libs/uikit`
 
 ## Setup
 
 ### Theme
 
-Before using Panther UIkit, you need to provide the theme file to styled-component.
+Before using Pai UIkit, you need to provide the theme file to styled-component.
 
 ```
 import { ThemeProvider } from 'styled-components'
-import { light, dark } from '@pantherswap-libs/uikit'
+import { light, dark } from '@paiswap-libs/uikit'
 ...
 <ThemeProvider theme={isDark}>...</ThemeProvider>
 ```
@@ -24,7 +24,7 @@ import { light, dark } from '@pantherswap-libs/uikit'
 A reset CSS is available as a global styled component.
 
 ```
-import { ResetCSS } from '@pantherswap-libs/uikit'
+import { ResetCSS } from '@paiswap-libs/uikit'
 ...
 <ResetCSS />
 ```

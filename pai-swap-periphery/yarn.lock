@@ -1160,9 +1160,9 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@pantherswap-libs/panther-swap-core@0.1.0":
+"@paiswap-libs/pai-swap-core@0.1.0":
   version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@pantherswap-libs/panther-swap-core/-/panther-swap-core-0.1.0.tgz#f9d7025a9412452d0e14683147b8472156e6aa1f"
+  resolved "https://registry.yarnpkg.com/@paiswap-libs/pai-swap-core/-/pai-swap-core-0.1.0.tgz#f9d7025a9412452d0e14683147b8472156e6aa1f"
   integrity sha512-55EzWpF2mCS9HEMzHsZ1QIxJ1ehshiF+SqB394Y8Nchbo+BFfPeZMka4ngYvb6uZIqwgPhEimH3XK4d+xkIruQ==
   dependencies:
     truffle "^5.1.41"

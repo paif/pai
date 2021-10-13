@@ -1846,9 +1846,9 @@
     truffle-flattener "^1.4.4"
     truffle-hdwallet-provider "^1.0.17"
 
-"@pancakeswap-libs/sdk@pantherswap/pantherswap-sdk":
+"@pancakeswap-libs/sdk@paiswap/paiswap-sdk":
   version "1.0.1"
-  resolved "https://codeload.github.com/pantherswap/pantherswap-sdk/tar.gz/638f2d1e5ea7acb48339265641e2b8031d63e925"
+  resolved "https://codeload.github.com/paiswap/paiswap-sdk/tar.gz/638f2d1e5ea7acb48339265641e2b8031d63e925"
   dependencies:
     "@pancakeswap-libs/pancake-swap-core" "^0.1.0"
     big.js "^5.2.2"

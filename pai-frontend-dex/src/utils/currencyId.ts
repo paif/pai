@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from '@pantherswap-libs/sdk'
+import { Currency, ETHER, Token } from '@paiswap-libs/sdk'
 
 export function currencyId(currency: Currency): string {
   if (currency === ETHER) return 'ETH'

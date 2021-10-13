@@ -3045,21 +3045,21 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pantherswap-libs/panther-swap-core@^0.1.0":
+"@paiswap-libs/pai-swap-core@^0.1.0":
   version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@pantherswap-libs/panther-swap-core/-/panther-swap-core-0.1.0.tgz#f9d7025a9412452d0e14683147b8472156e6aa1f"
+  resolved "https://registry.yarnpkg.com/@paiswap-libs/pai-swap-core/-/pai-swap-core-0.1.0.tgz#f9d7025a9412452d0e14683147b8472156e6aa1f"
   integrity sha512-55EzWpF2mCS9HEMzHsZ1QIxJ1ehshiF+SqB394Y8Nchbo+BFfPeZMka4ngYvb6uZIqwgPhEimH3XK4d+xkIruQ==
   dependencies:
     truffle "^5.1.41"
     truffle-flattener "^1.4.4"
     truffle-hdwallet-provider "^1.0.17"
 
-"@pantherswap-libs/sdk@^1.0.0":
+"@paiswap-libs/sdk@^1.0.0":
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@pantherswap-libs/sdk/-/sdk-1.0.0.tgz#6cafaee2bd7afa4d3b9dcc1993dca3ccd1124d16"
+  resolved "https://registry.yarnpkg.com/@paiswap-libs/sdk/-/sdk-1.0.0.tgz#6cafaee2bd7afa4d3b9dcc1993dca3ccd1124d16"
   integrity sha512-qhxvneNbLeheKYHpAjg5DvcUr6OWZsjMaURA6ZstJD7HnRQMD+tB5XQFRnuX7jdaXl2yIRDCLu7qKSlkr36XXA==
   dependencies:
-    "@pantherswap-libs/panther-swap-core" "^0.1.0"
+    "@paiswap-libs/pai-swap-core" "^0.1.0"
     big.js "^5.2.2"
     decimal.js-light "^2.5.0"
     jsbi "^3.1.1"
@@ -3067,9 +3067,9 @@
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
 
-"@pantherswap-libs/uikit@^0.1.1":
+"@paiswap-libs/uikit@^0.1.1":
   version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@pantherswap-libs/uikit/-/uikit-0.1.1.tgz#55e482c94df324e88254786178cf16c1028028a2"
+  resolved "https://registry.yarnpkg.com/@paiswap-libs/uikit/-/uikit-0.1.1.tgz#55e482c94df324e88254786178cf16c1028028a2"
   integrity sha512-ymEKLfLSyD/HDq+C2PwUSbcG3DlBu7IQNutTnCwVgtpmYrK/TchfTJ4lCNG09y4kDgDoCLMwYjnTIaTYFgLN6w==
   dependencies:
     "@types/lodash" "^4.14.162"

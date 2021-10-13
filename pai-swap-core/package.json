@@ -1,11 +1,11 @@
 {
-  "name": "@pantherswap-libs/panther-swap-core",
-  "description": "Core contracts for the panther protocol",
+  "name": "@paiswap-libs/pai-swap-core",
+  "description": "Core contracts for the pai protocol",
   "version": "0.1.0",
-  "homepage": "https://pantherswap.com",
+  "homepage": "https://paiswap.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pantherswap/panther-swap-core.git"
+    "url": "https://github.com/paiswap/pai-swap-core.git"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"

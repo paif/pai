@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { Menu as UikitMenu, ConnectorId } from '@pantherswap-libs/uikit'
+import { Menu as UikitMenu, ConnectorId } from '@paiswap-libs/uikit'
 import { useWeb3React } from '@web3-react/core'
 import { allLanguages } from 'constants/localisation/languageCodes'
 import { LanguageContext } from 'hooks/LanguageContext'
@@ -15,8 +15,8 @@ const Menu: React.FC = (props) => {
   const { isDark, toggleTheme } = useTheme()
   const priceData = useGetPriceData()
 
-  const pantherAddress = '0x1f546aD641B56b86fD9dCEAc473d1C7a357276B7'
-  const cakePriceUsd = priceData && priceData.data && priceData.data[pantherAddress] ? Number(priceData.data[pantherAddress].price) : Number(0)
+  const paiAddress = '0x1f546aD641B56b86fD9dCEAc473d1C7a357276B7'
+  const cakePriceUsd = priceData && priceData.data && priceData.data[paiAddress] ? Number(priceData.data[paiAddress].price) : Number(0)
   // const profile = useGetLocalProfile()
 
   return (
@@ -41,7 +41,7 @@ const Menu: React.FC = (props) => {
       langs={allLanguages}
       setLang={setSelectedLanguage}
       cakePriceUsd={cakePriceUsd}
-      cakePriceLink={`https://bscscan.com/token/${pantherAddress}`}
+      cakePriceLink={`https://bscscan.com/token/${paiAddress}`}
       /* profile={profile} */
       {...props}
     />

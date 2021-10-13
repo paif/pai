@@ -1,14 +1,14 @@
 {
-  "name": "@pantherswap/panther-swap-lib",
+  "name": "@paiswap/pai-swap-lib",
   "version": "0.1.0",
-  "description": "Panther Swap Lib",
+  "description": "Pai Swap Lib",
   "files": [
     "contracts",
     "!contracts/test"
   ],
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:pantherswap/panther-swap-lib.git"
+    "url": "ssh://git@github.com:paiswap/pai-swap-lib.git"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"

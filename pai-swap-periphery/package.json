@@ -1,14 +1,14 @@
 {
-  "name": "pantherswap-peripheral",
+  "name": "paiswap-peripheral",
   "version": "1.2.0",
-  "description": "Peripheral smart contracts for interacting with panther",
+  "description": "Peripheral smart contracts for interacting with pai",
   "engines": {
     "node": ">=10"
   },
-  "homepage": "https://pantherswap.com",
+  "homepage": "https://paiswap.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pantherswap/panther-swap-periphery.git"
+    "url": "https://github.com/paiswap/pai-swap-periphery.git"
   },
   "files": [
     "build",
@@ -16,7 +16,7 @@
   ],
   "dependencies": {
     "@uniswap/lib": "1.1.1",
-    "@pantherswap-libs/panther-swap-core": "0.1.0",
+    "@paiswap-libs/pai-swap-core": "0.1.0",
     "truffle-hdwallet-provider": "^1.0.17",
     "truffle-plugin-verify": "^0.4.0"
   },
